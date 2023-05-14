@@ -16,6 +16,34 @@ This script is a bash script that automates updating and cleaning up Homebrew pa
 
 ## Usage
 
+Clone this repository to your machine.
+
+```
+git clone https://github.com/your-username/dailybrew.git
+```
+
+Navigate to the cloned repository.
+
+```
+cd dailybrew
+```
+
+Run the brewup.sh script to update and clean up your packages.
+
+```
+./brewup.sh
+```
+
+Alternatively, you can create a symbolic link to run the script from anywhere in the terminal.
+
+```
+ln -s ${PWD}/brewup.sh /usr/local/bin/brewup
+```
+
+This will allow you to run the script by simply typing brewup in the terminal.
+
+## Explanation
+
 When the script is run, it will perform the following actions:
 
 1. Set necessary directories and variables
@@ -29,6 +57,8 @@ When the script is run, it will perform the following actions:
 9. Print final message and path to log directory
 
 The output of the script will be printed to the console and saved to a log file located in `$HOME/Library/Logs/Homebrew/dailybrew/YYYY/MM/`.
+
+
 
 ## Disclaimer
 
