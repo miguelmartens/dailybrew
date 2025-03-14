@@ -63,5 +63,3 @@ The output of the script will be printed to the console and saved to a log file 
 ## Disclaimer
 
 This script is provided as-is and is not guaranteed to work on all systems. It is recommended that you review and understand the script before running it on your macOS device.
-
-Test
